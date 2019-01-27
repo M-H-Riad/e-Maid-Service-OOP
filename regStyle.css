@@ -1,0 +1,74 @@
+body{
+			background-color: #2D2E2E;
+			background-image: url(np.jpg);
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+		.table{
+			position: relative;
+			z-index: 1;
+			margin: 0 auto 100px;
+			max-width: 600px;
+			background-color: #E4F0F0;
+			padding: 15px;
+			border: 2px solid gray;
+			border-radius: 4px;
+		}
+		#form{
+			background-color: #E4F0F0;
+		}
+
+		h2{
+			font-size: 180%;
+			font-family: sans-serif;
+			text-align: center;
+			background-color: #00bfff;
+			color: white;
+			border-style: initial;
+			border-radius: 4px;
+			padding: 4px;
+			border-width: 20%
+
+		}
+		input[type=submit]{
+			width: 100%;
+			padding: 10px;
+			background-color: #0bc5ea;
+			border-radius: 4px;
+			font-size: 100%;
+			font: bold;
+			cursor: pointer;
+		}
+		.login{
+			width: 600px;
+			padding: 10% 0 0;
+			margin: auto;
+		}
+p{
+	color: red;
+	font-size: 120%;
+		margin-left: 60px;
+
+}
+.btn{
+	background-color:#26A65B;
+	color: white;
+	border-radius: 5px; 
+	padding: 7px;
+	font-size: 100%;
+}
+.login button:hover, .login button:active {
+		background-color: gray;
+		cursor: pointer;
+	}
+
+#name{
+	color: black;
+	margin-left: 0px;
+}
+
+
+#duration{
+	margin-left: 22px;
+}
